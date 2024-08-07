@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vine Garden Restaurant</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css" />
+   <script src="script.js" defer></script>
+   <style>
+
+
+        h1 {
+            margin: 0;
+            font-size: 2.25em;
+            vertical-align: bottom; 
+            padding-left: 30px;
+            padding-top: 25px ;   
+
+        }
+
+        main {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 20vh;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+            border-spacing: 20px;
+            border-collapse: separate;
+        }
+
+        td {
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            vertical-align: top;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        td p {
+            margin: 0;
+            font-size: 1em;
+            color: #333;
+            vertical-align: bottom;
+        }
+
+    
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn">
+        <img src="assets/menu.png" alt="" style="width: 30px;">
+      </i>
+      <a href="#">
+        <img src="assets/indomie.png" alt="logo" class="logo">
+      </a>
+
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn">
+          <img src="assets/closebtn.png" alt="" style="width: 30px;">
+        </i>
+        <li class="menu-item"><a href="index.html">Home</a></li>
+        <li class="menu-item"><a href="about.html">About Us</a></li>
+        <li class="menu-item dropdown">
+          <a href="#">Services</a>
+          <ul class="dropdown-content">
+            <li><a href="dishes.html">Dishes</a></li>
+            <li><a href="beverages.html">Beverages</a></li>
+            <li><a href="salads.html">Salads</a></li>
+            <li><a href="#">Desserts</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="contact_Us.html">Contact Us</a></li>
+      </ul>
+
+      <i class="uil uil-search search-icon" id="searchIcon">
+        <img src="assets/searchbtbn.png" alt="" style="width: 30px;">
+      </i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <img src="assets/Chocolate cake.jpg" alt="Chocolate Cake">
+                    <p>Chocolate Cake: A rich and moist chocolate layer cake.</p>
+                </td>
+                <td>
+                    <img src="assets/strawberry cheesecake.jpg" alt="Strawberry Cheesecake">
+                    <p>Strawberry Cheesecake: A creamy cheesecake with a strawberry topping.</p>
+                </td>
+                <td>
+                    <img src="assets/Macaron.jpg" alt="Macarons">
+                    <p>Macarons: Colorful French macarons with a variety of fillings.</p>
+                </td>
+                <td>
+                    <img src="assets/Lemon Tart.jpg" alt="Lemon Tart">
+                    <p>Lemon Tart: A tangy and sweet lemon tart with a buttery crust.</p>
+                </td>
+               
+                
+            </tr>
+            <tr>
+                <td>
+                    <img src="assets/Chocolate Mousse.jpg" alt="Chocolate Mousse">
+                    <p>Chocolate Mousse: A light and airy chocolate mousse.</p>
+                </td>
+                <td>
+                    <img src="assets/Tiramisu.jpg" alt="Tiramisu">
+                    <p>Tiramisu: A classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream.</p>
+                </td>
+                <td>
+                    <img src="assets/Fruit tart.jpg" alt="Fruit Tart">
+                    <p>Fruit Tart: A tart filled with creamy custard and topped with fresh fruits.</p>
+                </td>
+                <td>
+                    <img src="assets/Brownies.jpg" alt="Brownies">
+                    <p>Brownies: Fudgy chocolate brownies with a crispy top.</p>
+                </td>
+                
+                
+            </tr>
+            
+        </table>
+    </main>
+     
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Address: 123 Vine Garden St, Food City, FC 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@vinegardenrestaurant.com</p>
+          </div>
+          <div class="footer-section follow">
+            <h3>Follow Us</h3>
+            <p>
+              <a href="#">Facebook</a> | 
+              <a href="#">Twitter</a> | 
+              <a href="#">Instagram</a>
+            </p>
+            <img src="assets/logo.png" alt="" class="footer-logo">
+          </div>
+          <div class="footer-section hours">
+            <h3>Opening Hours</h3>
+            <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+            <p>Sat - Sun: 11:00 AM - 11:00 PM</p>
+          </div>
+        </div>
+      </footer>
+    
+  </body>
+</html>

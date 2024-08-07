@@ -1,0 +1,167 @@
+.dishes-hero{
+    width: 100%;
+    height: auto;   
+}
+.menu-intro{
+    position: absolute;
+    color: #2C2C2C;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    width: 50%;
+    margin: auto 25%;
+    margin-top: 25vh;
+    -webkit-text-stroke: 2px #ffffff9d;
+}
+.menu-slogan{
+    position: absolute;
+    color: #2C2C2C;
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+    margin: auto 25%;
+    margin-top: 38vh;
+    line-height: 40px;
+    -webkit-text-stroke: 1px #ffffff9d;
+    padding: 10px;
+    z-index: 900;
+
+}.attention{
+    color: #D4AF37;
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 20%;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 6500px; /* 5 cards * 600px each */
+}
+
+/* Ensure all carousel cards are of equal size */
+.carousel-card {
+  width: 800px; /* Increased from 500px to 600px */
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px 30px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+/* Ensure all images within carousel cards are of equal size */
+.carousel-card img {
+  width: 80%;
+  height: auto;
+  object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #D4AF37;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #D4AF37;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.dish-name, .dish-amount{
+    color: #2C2C2C;
+}
+.order-btn{
+    background-color: #D4AF37;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+/* Style for the dish buttons */
+.dish-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dish-buttons button {
+  background-color: #D4AF37; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dish-buttons button:hover {
+  background-color: #D4AF37;
+}
+
+/* Style for the dish tables */
+.dish-table {
+  width: 80%;
+  margin: 20px auto 200px;
+  border-collapse: collapse;
+  color: #ffffff;
+
+}
+
+.dish-table h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dish-table table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.dish-table th, .dish-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dish-table th {
+  background-color: #D4AF37;
+}
+
+.dish-table tr:hover {
+  background-color: #D4AF37;
+}
+
+.dish-table img {
+  width: 50px;
+  height: auto;
+  border-radius: 4px;
+}
